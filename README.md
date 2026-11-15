@@ -4,7 +4,7 @@
 
 1. C#, .NET 
 2. React, 
-3. PostreSQL
+3. PostgreSQL
 4. Docker 
 
 ## TODO tech
