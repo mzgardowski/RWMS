@@ -1,14 +1,18 @@
-# Magazine manager 
+# RWMS - Magazine manager 
 
 ## Technologies 
 
 1. C#, .NET 
 2. React, 
 3. PostreSQL
+4. Docker 
 
 ## TODO tech
-- [ ] Inicjalizajca forntendu, backendu, bazy danych 
-- [ ] Schemat bazy danych 
+- [ ] Inicjalizajca frontend
+- [ ] Init backend 
+- [ ] Init database
+- [ ] Create schema to database 
+- [ ] Configure containers  
 
 ## Procesy 
 - [ ] Dostawa (Rampa 1/2/3/n) (dział dostaw)
@@ -16,3 +20,6 @@
 - [ ] Dział kompletacji (Pobieranie z magazynu)
 - [ ] Dział kontroli (Weryfikacja kompletnosci zamówienia + zapakowanie na palete)
 - [ ] Rampa odbioru (Dostarczenie do rampy, ładunek na tira) 
+
+## Database Schema
+
