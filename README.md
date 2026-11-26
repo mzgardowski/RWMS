@@ -118,8 +118,6 @@ poprawna komunikacja pomiędzy komponentami aplikacji.
 
 ## Database Schema
 
-# Database Schema – RWMS
-
 ## 1. WarehouseLocation
 
 - [ ] Id
