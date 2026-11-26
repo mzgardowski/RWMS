@@ -194,7 +194,7 @@ Format: RWMS-000001.
 - Powiązanie palet z dostawą przez InboundDeliveryId.
 - Automatyczna aktualizacja statusu dostawy.
 - Kontrola poprawności rejestrowanych palet.
-- DeliveryDate wykorzystywane do ustalania kolejności FIFO (first in first out).
+- DeliveryDate określa datę przyjęcia dostawy do magazynu.
 
 ## 4. CustomerOrder
 
@@ -218,7 +218,7 @@ Format: RWMS-000001.
 - Powiązanie palet z zamówieniem przez Pallet.CustomerOrderId.
 - Blokowanie przypisania palety do więcej niż jednego aktywnego zamówienia.
 - Kontrola dostępności i statusu wybranych palet.
-- FIFO może podpowiadać najstarsze dostępne palety, ale ostateczny wybór należy do pracownika.
+- Zamówienia są realizowane według FIFO – najstarsze zamówienie oczekujące na realizację jest obsługiwane jako pierwsze.
 - Status zamówienia aktualizowany zgodnie z etapem realizacji.
 
 ## 5. PickingTask
@@ -241,6 +241,7 @@ Format: RWMS-000001.
 - Przypisanie pracownika odpowiedzialnego za realizację.
 - Kontrola statusu zadania.
 - Zapisywanie dat rozpoczęcia i zakończenia kompletacji.
+- Zadania kompletacji są przydzielane zgodnie z kolejnością FIFO zamówień.
 
 ## 6. PickingTaskPallet
 
